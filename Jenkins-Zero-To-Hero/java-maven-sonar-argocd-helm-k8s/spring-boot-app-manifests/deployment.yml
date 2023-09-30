@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: abhishekf5/ultimate-cicd:4
-        docker.io/aamir09/er:${BUILD_NUMBER}
+        image: aamir09/er:${BUILD_NUMBER}
         ports:
         - containerPort: 8080
