@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: aamir09/er:${BUILD_NUMBER}
+        image: aamir09/er:replaceImageTag
         ports:
         - containerPort: 8080
